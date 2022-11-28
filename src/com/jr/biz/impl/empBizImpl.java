@@ -13,7 +13,7 @@ public class empBizImpl implements IEmpBiz {
 
     @Override
     public boolean register(Emp emp) {
-        return false;
+   return  false;
     }
 
     @Override
@@ -30,4 +30,11 @@ public class empBizImpl implements IEmpBiz {
     public boolean changeEmp(Emp emp) {
         return false;
     }
+
+    @Override
+    public List<Emp> queryByNo(int empno) {
+        return null;
+    }
+
+
 }

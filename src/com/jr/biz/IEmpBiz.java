@@ -21,5 +21,7 @@ public interface IEmpBiz {
     //通过empno修改
     public  boolean changeEmp(Emp emp);
 
+    public List<Emp>  queryByNo(int empno);
+
 }
 

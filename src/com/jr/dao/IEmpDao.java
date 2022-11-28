@@ -16,9 +16,12 @@ public interface IEmpDao {
     public  List<Emp> selectAll();
 
     //通过empno删除
-    public  boolean dropEmp(int empno);
+    public  int  dropEmp(int empno);
 
     //通过empno修改
     public  int updateEmp(Emp emp);
+
+
+    public  List<Emp> selectByNo(int empno);
 
 }
